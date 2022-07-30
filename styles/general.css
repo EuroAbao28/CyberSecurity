@@ -1,0 +1,24 @@
+:root {
+  --orange: #ffa31a;
+  --light: #1b1b1b;
+  --mid: #101010;
+}
+
+body {
+  margin-top: 0;
+  font-family: Poppins, Arial;
+  background-color: #000000;
+}
+
+p {
+  margin: 0;
+}
+
+.footer {
+  position: absolute;
+  background-color: var(--light);
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

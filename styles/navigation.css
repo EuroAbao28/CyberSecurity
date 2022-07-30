@@ -1,0 +1,71 @@
+:root {
+  --orange: #ffa31a;
+  --light: #1b1b1b;
+  --mid: #101010;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  padding: 0px 100px;
+  background-color: var(--light);
+  
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.nav-left p {
+  font-size: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.orange-border {
+  
+  background-color: var(--orange);
+  color: black;
+  padding: 0px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+
+
+/* RIGHT NAV*/
+
+.nav-right {
+  display: flex;
+  right: 0;
+  color: white;
+}
+
+.first,
+.second,
+.third {
+  width: 170px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color .15s;
+  cursor: pointer;
+}
+
+.first:hover,
+.second:hover,
+.third:hover {
+  text-decoration: underline;
+  color: var(--orange);
+}
+
